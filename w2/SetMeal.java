@@ -9,6 +9,7 @@ public class SetMeal {
 
 //----------------------------------------------------------------------------------------------------------------------
 
+    //没啥用的getset
     public String getSetName() {
         return setName;
     }
@@ -49,7 +50,7 @@ public class SetMeal {
         this.setPrice = setPrice;
         this.fCkName = fCkName;
         this.drinks = drinks;
-    }
+    }//全参数构造函数
 
 //----------------------------------------------------------------------------------------------------------------------
 
@@ -58,6 +59,6 @@ public class SetMeal {
                 "Drink:" + drinks.name + "\n" +
                 "Fried Chicken:" + fCkName + "\n" +
                 "Set Price:" + setPrice + "\n";
-    }
+    }//套餐类toString
 
 }
